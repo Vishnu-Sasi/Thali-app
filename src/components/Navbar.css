@@ -1,0 +1,28 @@
+.main-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightskyblue;
+    color: white;
+    font-weight: 700;
+    height: 18vh;
+}
+.thali{
+    text-decoration: none;
+    color: red;
+    letter-spacing: 1px;
+}
+.menu{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: red;
+}
+.nav{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.items{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}

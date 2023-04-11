@@ -1,0 +1,21 @@
+.main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    background-image: linear-gradient(lightseagreen,lightskyblue);
+    height: 82vh;
+    width: 100%;
+    gap: 10px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    font-weight: 800;
+    margin-top: 20px;
+}

@@ -1,0 +1,14 @@
+.add{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.477);
+    border-radius: 8px;
+    color:white;
+    background-color: green;
+}
+.remove{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.477);
+    border-radius: 8px;
+    color:white;
+    background-color:red; 
+}
