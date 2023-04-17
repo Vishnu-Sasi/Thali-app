@@ -4,7 +4,7 @@ import Data from '../data';
 const initialState = {
     Data,
     checkedItems: [], 
-    city:"delhi"
+   
 };
 
 export const checkoutSlice = createSlice({
@@ -20,6 +20,7 @@ export const checkoutSlice = createSlice({
             let itemAdded = action.payload.item;
 
             let index = state.Data.findIndex(item => item.id === itemAdded.id);
+            //console.log(index)
 
             state.Data[index].quantity = action.payload.quantity;
 
